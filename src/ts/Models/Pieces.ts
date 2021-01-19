@@ -2,12 +2,12 @@ type t_Color = "black" | "white";
 type t_Rank = 1|2|3|4|5|6|7|8;
 type t_File = "a"|"b"|"c"|"d"|"e"|"f"|"g"|"h";
 
-// enum Files {
-//     A='a',
-//     B='b',
-//     C='c',
+enum Files {
+    A='a',
+    B='b',
+    C='c',
 
-// }
+}
 
 enum Piece{
     PAWN='Pawn',
